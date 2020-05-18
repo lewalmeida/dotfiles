@@ -16,7 +16,7 @@ command -v brew >/dev/null 2>&1 || {
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install zsh
 brew install zsh
@@ -29,7 +29,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s $(which zsh)
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget
 
 # Install more recent versions of some macOS tools.
 brew install openssh
@@ -37,9 +37,10 @@ brew install openssh
 # Install other useful binaries.
 brew install git
 brew install git-extras
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install p7zip
 brew install htop
+brew install mas
 
 # Install brew cask and other apps
 # Hit Ctrl+C to stop anytime
@@ -66,7 +67,7 @@ brew install php72
 
 cp ./../config/php-memory-limits.ini /usr/local/etc/php/7.2/conf.d/php-memory-limits.ini
 
-brew install node@10 && brew postinstall node@10
+brew install node && brew postinstall node
 
 # Remove outdated versions from the cellar.
 brew cleanup & brew prune
