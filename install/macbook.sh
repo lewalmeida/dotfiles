@@ -69,6 +69,7 @@ echo "export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm"
 
 # Alias python3 to python
 echo "alias python=python3" >> ~/.zshrc
+echo "alias pip=pip3" >> ~/.zshrc
 
 
 # Activate completions
