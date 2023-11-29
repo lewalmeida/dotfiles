@@ -33,7 +33,12 @@ brew install mas
 brew install wget
 brew install htop
 brew install git-extras
+brew install postgresql
 # brew install docker
+
+# Create postgres user
+createuser -s postgres
+brew services restart postgresql
 
 # casks
 brew install --cask sublime-text
@@ -59,6 +64,7 @@ mas install 937984704 # Amphetamine
 mas install 441258766 # Magnet
 # mas install 497799835 # Xcode
 mas install 1140461273 # Kaspersky password manager
+mas install 406056744 # evernote
 
 # Install ZSH auto suggestions
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
