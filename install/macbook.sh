@@ -50,6 +50,7 @@ brew install --cask postman
 brew install --cask insomnia
 brew install --cask docker
 brew install --cask pgadmin4
+brew install --cask miro
 
 
 # mas
