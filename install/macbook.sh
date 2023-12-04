@@ -56,6 +56,7 @@ brew install --cask insomnia
 brew install --cask docker
 brew install --cask pgadmin4
 brew install --cask miro
+brew install --cask redisinsight
 
 
 # mas
@@ -65,6 +66,8 @@ mas install 441258766 # Magnet
 # mas install 497799835 # Xcode
 mas install 1140461273 # Kaspersky password manager
 mas install 406056744 # evernote
+mas install 310633997 # whatsapp
+mas install 409203825 #numbers
 
 # Install ZSH auto suggestions
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
