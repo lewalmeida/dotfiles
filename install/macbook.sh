@@ -41,6 +41,7 @@ createuser -s postgres
 brew services restart postgresql
 
 # casks
+brew tap homebrew/cask-versions
 brew install --cask sublime-text
 brew install --cask iterm2
 brew install --cask google-chrome
@@ -57,7 +58,8 @@ brew install --cask docker
 brew install --cask pgadmin4
 brew install --cask miro
 brew install --cask redisinsight
-
+brew install --cask cocoapods
+brew install --cask zulu17
 
 # mas
 mas install 1091189122 # Bear
