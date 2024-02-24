@@ -60,6 +60,7 @@ brew install --cask miro
 brew install --cask redisinsight
 brew install --cask cocoapods
 brew install --cask zulu17
+brew install --cask --no-quarantine chromium
 
 # mas
 mas install 1091189122 # Bear
